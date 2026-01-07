@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Välkommen!</p>
+
+<form action="/submit" method="get">
+    <input type="text" name="name" required>
+    <button>Skicka</button>
+</form>
+{% endblock %}
