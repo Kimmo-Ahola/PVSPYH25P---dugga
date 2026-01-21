@@ -71,7 +71,7 @@ Skapa filen users.html med följande:
 
 
 ### Uppgift 3: Javascript
-1. Skapa en answers.js-fil som du länkar till i din head-tagg. Lös följande uppgifter och skriv ut resultatet till konsolen via console.log(ditt resultat här):
+Skapa en answers.js-fil som du länkar till i din head-tagg. Lös följande uppgifter och skriv ut resultatet till konsolen via console.log() efter varje uppgift:
 1. Skapa en funktion greet(name) som returnerar "Hej, name" mha en template-string (javascripts version av f-string)
 1. Skapa en array numbers med siffrorna 1, 2, 3, 4, 5. Skriv kod som:
     - Lägger till siffran 6 i slutet av arrayen. Siffran 6 ska alltid läggas till i slutet, oavsett hur många gånger funktionen anropas.
@@ -79,6 +79,6 @@ Skapa filen users.html med följande:
 1. Skriv en funktion checkAge(age) som:
     - Returnerar "Vuxen" om age är 18 eller högre
     - Returnerar "Minderårig" annars
-1. Skriv en funktion checkAgeTernary(age) som gör samma som ovan, men med en ternary (? :):
+1. Skriv en funktion checkAgeTernary(age) som gör samma som ovan, men med en ternary (dvs med ? : syntax ? = om ja, : = annars):
 1. Skriv en for-loop som skriver ut alla jämna siffror från paramterarna start och end i konsolen
     - exempel: att köra start=0, end=4 ska skriva ut siffrorna 0, 2 och 4
