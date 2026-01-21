@@ -14,7 +14,7 @@ Uppskattad tidsåtgång: ca 1h för installation och bekanta er med koden. Lös 
 Ni får gärna göra denna övningstenta och ta tid på er själva så att jag kan sätta en rimlig gräns på tentamen senare. Tentamen kommer ungefär vara i denna storleksordning plus några kortare flervalsfrågor om HTML, JS och agilt arbete.
 
 ## Instruktioner
-Varje uppgift ska lösas i en egen branch. Ni behöver inte skapa issues på github eller liknande utan bara nya branches.
+Varje uppgift ska lösas i en egen branch vilket betyder att ni ska ta med arbetet från föregående branch när ni skapar en ny. Kom därför ihåg att köra en commit, med ett meddelande, efter varje uppgift!
 
 Applikationen saknar funktionalitet och innehåller avsiktliga fel.
 Dessa ska identifieras och rättas. 
