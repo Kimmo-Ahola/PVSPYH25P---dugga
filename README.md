@@ -38,7 +38,7 @@ Skapa en User-klass och generera testdata:
     - last name (str)
     - email (str)
     - city (str)
-1. Skapa en funktion get_random_users() som returnerar en lista med slumpat antal User-objekt med fejkad data från Faker
+1. Skapa en funktion get_random_users() som returnerar en lista med slumpat antal User-objekt med fejkad data från Faker eller manuell fejkdata.
 1. Skapa en route /users som visar alla användare i en tabell. Styling är inte nödvändigt.
 - Tabellen ska innehålla en header med kolumnnamn och rada upp samtliga användare
 - Paginering är inte nödvändigt eller sortering är inte nödvändigt.
