@@ -39,7 +39,7 @@ Uppgift 1.3: HTML-template för användarlista (15p)
 Skapa filen templates/users.html med följande:
 
 1. En HTML-struktur med <!DOCTYPE>, <html>, <head> och <body>
-1. En rubrik <h1> med texten "Alla användare"
+1. En rubrik med texten "Alla användare"
 1. En tabell som visar alla användare med kolumnerna: ID, Namn, Email, Stad
 
 Uppgift 1.4: Navbar
