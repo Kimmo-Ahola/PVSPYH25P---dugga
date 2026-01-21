@@ -15,3 +15,5 @@ class User:
         The amount should be random between 1-30 (inclusive)
         """
         pass
+
+# this is my first fix
