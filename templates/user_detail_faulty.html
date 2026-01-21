@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Användardetaljer</title>
+</head>
+<body>
+    <h1>Information om {{ username }}</h1>
+    {% if user %}
+        <p>Email: {{ user.Email }}</p>
+        <p>Stad: {{ user.City }}</p>
+    {% end %}
+    {% else %}
+        <p>Användaren hittades inte!</p>
+    {% endif %}
+</body>
+</html>
