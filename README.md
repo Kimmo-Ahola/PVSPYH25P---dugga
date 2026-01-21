@@ -13,7 +13,8 @@ Dessa ska identifieras och rättas. Ingen databas ska installeras.
 
 Lycka till!
 
-Uppskattad tidsåtgång: ca 1h för installation och bekanta er med koden. Lös en uppgift i taget per branch. Ca 3h för att implementera funktionaliteten.
+Uppskattad tidsåtgång: ca 1h för installation och bekanta er med koden. Lös en uppgift i taget per branch. Ca 3-5h för att implementera funktionaliteten. Dessa tider är mina uppskattningar men det är väldigt svårt för mig att veta hur lång tid det tar för er och vad som känns rimligt.
+Ni får gärna göra denna övningstenta och ta tid på er själva så att jag kan sätta en rimlig gräns på tentamen senare. Tentamen kommer ungefär vara i denna storleksordning plus några kortare flervalsfrågor om HTML, JS och agilt arbete.
 
 ## Instruktioner
 Varje uppgift ska lösas i en egen branch. Ni behöver inte skapa issues på github eller liknande utan bara nya branches.
