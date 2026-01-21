@@ -2,7 +2,7 @@
 
 ## Klona projektet
 
-1. Gör en fork av repot
+1. Klona ner med git clone in i en mapp och öppna i VSCode
 2. Skapa en virtuell miljö
     - python -m venv venv
 3. Installera beroenden från requirements.txt
