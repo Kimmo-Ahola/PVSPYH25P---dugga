@@ -12,3 +12,5 @@ def user_detail(int: id):
             user = u
             break
     return render_template('user_detail.html', user=user)
+
+# this is my first fix
