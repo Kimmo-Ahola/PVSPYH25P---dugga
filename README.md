@@ -82,3 +82,112 @@ Skapa en answers.js-fil som du länkar till i din head-tagg. Lös följande uppg
 1. Skriv en funktion checkAgeTernary(age) som gör samma som ovan, men med en ternary (dvs med ? : syntax ? = om ja, : = annars):
 1. Skriv en for-loop som skriver ut alla jämna siffror från paramterarna start och end i konsolen
     - exempel: att köra start=0, end=4 ska skriva ut siffrorna 0, 2 och 4
+  
+
+
+# English instructions - Flask-Dugga – Practice Exam
+
+## Clone the project
+
+1. Clone the repository using `git clone` into a folder and open it in VSCode
+2. Create a virtual environment
+
+   * `python -m venv venv`
+3. Install dependencies from `requirements.txt`
+
+   * `pip install -r requirements.txt`
+
+Good luck!
+
+Estimated time required: about **1 hour** for installation and to familiarize yourselves with the code. Solve **one task at a time per branch**. About **3–5 hours** to implement the functionality. These times are my estimates, but it is very difficult for me to know how long it will take for you or what feels reasonable.
+
+You are welcome to do this practice exam and time yourselves so that I can set a reasonable limit for the actual exam later. The exam will be roughly of this size, plus a few shorter multiple-choice questions about HTML, JavaScript, and agile work.
+
+## Instructions
+
+Each task must be solved in its **own branch**, which means you should include the work from the previous branch when creating a new one. Therefore, remember to make a **commit with a message after each task**!
+
+The application lacks functionality and contains **intentional errors**.
+These should be identified and fixed.
+
+No database should be installed.
+
+## Tasks
+
+### Task 1.1
+
+Create a Flask application in `app.py` with the following functionality:
+
+1. A route that gives us a start page showing the text **"Welcome to my Flask app!"** inside a suitable HTML element
+2. An **“About us”** page that shows information about the website (use lorem ipsum for text)
+3. The application should run in **debug mode** when started
+
+### Task 1.2
+
+Create a `User` class and generate test data:
+
+1. Create a class, either a classic Python class or an `@dataclass`, containing the following attributes.
+   **Note:** This should *not* be a database model, only a regular class.
+
+   * id (int)
+   * first name (str)
+   * last name (str)
+   * email (str)
+   * city (str)
+2. Create a function `get_random_users()` that returns a list with a random number of `User` objects with fake data from Faker or manually created fake data
+3. Create a route `/users` that displays all users in a table. Styling is not required.
+
+   * The table should contain a header with column names and list all users
+   * Pagination and sorting are not required
+
+### Task 1.3
+
+Create the file `users.html` with the following:
+
+1. An HTML structure that inherits from the base template and adds its own content
+2. A heading with the text **"All users"**
+3. A table that shows all users with the columns:
+   **ID, Name (i.e. first name + last name), Email, City**
+
+### Task 1.4: Navbar
+
+1. Add a component, `_navbar.html` or `navbar.html`, that contains links to your routes. Insert this component inside the base template.
+
+### Task 1.5: CSS Styling
+
+1. Link the CSS file inside the `static` folder in your base template
+2. Add a CSS reset at the top of the CSS file
+3. Remove the underline from all `<a>` links
+4. Set the background color of the `html` element to a chosen shade of gray
+
+### Task 2.1: Bug fix
+
+1. Inside `app.py` there is a function `user_detail` that does not work correctly due to faulty code. Fix the bugs. When the route is correctly written, it should lead to a profile page that shows customer information. Styling is not required—only display the information on the screen in a `<p>` element.
+
+### Task 2.2: Bug fix
+
+1. There is a `user_detail_faulty` template that does not work correctly.
+
+   * Make it inherit the layout from the base template
+   * Fix the Jinja code so that it outputs the correct information
+   * You can use the first user from `get_random_user()`
+   * Update your navbar so that this link is also included
+
+### Task 3: JavaScript
+
+Create an `answers.js` file and link it in your `<head>` tag. Solve the following tasks and print the result to the console using `console.log()` after each task:
+
+1. Create a function `greet(name)` that returns **"Hello, name"** using a template string (JavaScript’s version of an f-string)
+2. Create an array `numbers` with the values `1, 2, 3, 4, 5`. Write code that:
+
+   * Adds the number `6` to the end of the array. The number 6 should always be added to the end, regardless of how many times the function is called
+   * Prints the length of the array to the console
+3. Write a function `checkAge(age)` that:
+
+   * Returns **"Adult"** if `age` is 18 or higher
+   * Returns **"Minor"** otherwise
+4. Write a function `checkAgeTernary(age)` that does the same as above, but using a ternary operator (`? :`)
+5. Write a `for` loop that prints all even numbers between the parameters `start` and `end` to the console
+
+   * Example: running with `start = 0`, `end = 4` should print `0`, `2`, and `4`
+
